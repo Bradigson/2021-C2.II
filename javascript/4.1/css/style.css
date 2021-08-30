@@ -1,0 +1,30 @@
+.sesion1{
+    background-image: linear-gradient(-225deg, #AC32E4 0%, #7918F2 48%, #4801FF 100%);
+
+    height:755px;
+}
+#button{
+
+    margin-left:580px;
+    margin-top:200px;
+    width:250px;
+    height:250px;
+    border-radius:20rem;
+    font-size:40px;
+    animation-name:boton;
+    animation-duration:3s;
+    animation-iteration-count:infinite;
+}
+
+
+@keyframes boton{
+    0%{
+        box-shadow: 0 0 0 0 rgba(0,0,0,.7);
+    }
+    70%{
+        box-shadow: 0 0 0 20px rgba(0,0,0,0);
+    }
+    100%{
+        box-shadow: 0 0 0 0 rgba(0,0,0,0);
+    }
+}

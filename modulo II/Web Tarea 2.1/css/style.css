@@ -1,0 +1,183 @@
+header{
+    background:rgb(52, 73, 94);
+    position:fixed;
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    height:100px;
+    border-radius:0px 0px 50px 0px ;
+    padding:0px 50px;
+    top:0px;
+    z-index:100;
+
+}
+nav{
+    animation-name:nav;
+    animation-duration:1s;
+    animation-iteration-count:1;
+    animation-timing-function:ease-in-out;
+}
+nav > a{
+    color:#fff;
+    text-decoration:none;
+    margin-right:30px;
+    font-size:18px;  
+   
+    
+}
+nav > a:hover{
+  text-shadow:1px 1px 2px rgba(0,0,0);
+  color:#F39C12 ;
+
+}
+header h1{
+
+    animation-name:h1;
+    animation-duration:1s;
+    animation-iteration-count:1;
+    animation-timing-function:ease-in-out;
+}
+@keyframes h1{
+    0%{
+        transform:translatex(-300px);
+        
+    }
+    80%{
+        
+    }
+    100%{
+        transform:translatex(0px);
+    }
+}
+@keyframes nav{
+    0%{
+        transform:translatex(600px);
+    }
+    80%{
+
+    }
+    100%{ transform:translatex(0px);}
+}
+
+
+
+
+/*sesion1*/
+.sesion1{
+    position:relative;
+    top:80px;
+    
+    height:3020px;
+}
+
+.sesion1__articulo1 h2{
+    width:650px;
+    font-size:30px;
+    margin-top:100px;
+    margin-left:100px;
+    
+}
+.sesion1__articulo1 p{
+    width:700px;
+    margin-left:100px;
+}
+
+#sesion1__articulo1-img{
+    width:200px;
+    position:absolute;
+    right:100px;  
+}
+
+.sesion1__articulo2{
+    margin-top:100px;
+}
+
+/*articulo2*/
+.sesion1__articulo2{
+    
+    height:500px;
+}
+.articulo2__content{
+   
+    position:absolute;
+    width:700px;
+    right:50px;
+    text-align:right;
+}
+#articulo2-img{
+    width:350px;
+    margin-left:150px;
+    position:absolute;
+    filter:drop-shadow(1px 1px 4px rgba(0,0,0,.4));
+    animation-name:img;
+    animation-duration:1s;
+    animation-iteration-count:infinite;
+    animation-direction:alternate;
+    animation-timing-function:ease-in-out;
+}
+@keyframes img{
+    0%{transform:translatey(5px);}
+}
+
+
+
+
+.sesion1__articulo3 p{
+    margin-top:100px;
+    width:900px;
+    margin-left:50px;
+
+}
+#articulo3-img{
+    width:200px;
+    position:absolute;
+    right:100px;
+    margin-top:50px;
+
+}
+
+
+.sesion1__articulo4{
+    margin-top:100px;
+}
+.sesion1__articulo4 p{
+    text-align:right;
+    margin-right:50px;
+}
+#artiulo4-img{
+    width:400px;
+    float:left;
+}
+
+
+.articulo5{
+    background:linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)), url(../css/imgs/arif-riyanto-G1N9kDHqBrQ-unsplash.jpg);
+    height:400px;
+    display:flex;
+    align-items:center;
+    background-size:cover;
+    background-position:center;
+    margin-top:100px;
+}
+
+
+
+.articulo6{
+    margin-top:100px;
+    padding:0px 10px;
+    height:250px;
+    background:rgba(235, 245, 251);
+    display:flex;
+    align-items:center;
+    text-align:center;
+}
+
+footer{
+    text-align:center;
+    font-size:30px;
+}
+
+html{
+    scroll-behavior:smooth;
+}

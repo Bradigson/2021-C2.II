@@ -1,0 +1,44 @@
+.sesion1{
+
+    background:url(../imgs/akin-nkUFXi0JSX8-unsplash.jpg);
+    background-size:cover;
+    background-position:center;
+    height:755px;
+}
+p {
+    font-family: 'helvetica neue', helvetica, sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+    border: 2px solid rgba(0,0,200,0.6);
+    background: rgba(0,0,200,0.3);
+    backdrop-filter:blur(10px);
+    color: #fff;
+  
+    border-radius: 10px;
+    padding: 3px 10px;
+    display: inline-block;
+    cursor: pointer;
+    margin-left:580px;
+
+    box-sizing:border-box;
+    position:absolute;
+    top:250px;
+    padding:30px 60px;
+    animation-name:shadow;
+    animation-duration:2s;
+    animation-iteration-count:infinite;
+  }
+
+
+  @keyframes shadow{
+      0%{
+        box-shadow: 0 0 0 0  rgba(0,0,200,0.8);
+      }
+      70%{
+        box-shadow: 0 0 0 13px rgba(0,0,200,0);
+      }
+      100%{
+        box-shadow: 0 0 0 0 rgba(0,0,200,0);
+      }
+  }
